@@ -57,5 +57,6 @@ It's a multiple choice and true/false exam, which contains 60 questions and shou
 ---
 
 ## References
+These references are just as a source of this repository. For your exam you shouldn't need these, this repository should be more than enough.
 - [Linux Foundation Free Trainings](https://training.linuxfoundation.org/resources/?_sft_topic_area=cloud-containers&_sft_content_type=free-course)
 - [Kubernetes Docs](https://kubernetes.io/docs/concepts/)
