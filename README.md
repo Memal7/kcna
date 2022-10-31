@@ -1,6 +1,6 @@
 # Kubernetes and Cloud Native Associate (KCNA)
-This repository demonstrates the exam objectives of KCNA certification. It explains the entire exam objectives in detail with examples, as well as a model test of around 50 questions.
-This repository should be as a single learning and preparation source for your KCNA exam. If you learned and understand all contents of this well,  I diffenelty guarantee you, that you're going to rock it ;).
+This repository demonstrates the exam objectives of KCNA certification. It explains the entire exam objectives in detail with examples, as well as a model test.
+This repository should be as a single learning and preparation source for your KCNA exam. If you learned and understand all contents of this repository well, you're going to rock it ;).
 
 ---
 
@@ -16,8 +16,8 @@ It's a multiple choice and true/false exam, which contains 60 questions and shou
 ## Who should learn this repo?
 - If you want to have a broad understanding about cloud-native tecgnologies.
 - if you just started your career in cloud-native world or newly switched in this environments.
-- Students and graduates, which would like to work in cloud-native environments.
-- And of course if you're interested to write KCNA exam.
+- Students and graduates, which would like to kick-off thier carrer in cloud-native environments.
+- And of course if you're interested to be certified KCNA.
 
 ---
 
