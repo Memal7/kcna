@@ -5,13 +5,13 @@ This part of the repository demonstrate the cloud-native architecture and core c
 
 ## Chapter outcomes
 At the end of this page you should be able to describe and answer following questions:
-- How CNCF defines the cloud-native term and what're the core characteristics
+- How CNCF defines the cloud-native terms and what're it's the core characteristics.
 - Describe Monolith vs. Microservices architecture approaches with examples, as well as the benefits and drawbacks of both approaches.
-- Autoscaling
-- Serverless
+- Describe different Autoscaling options in cloud-native environments.
+- Describe the concept of Serverless Computing, as well as it'd benefits.
 - Community and Governance 
-- Roles and Personas
-- Open Standards
+- Which Roles and Personas are existing within cloud-native environments and what're thier tasks?
+- Which Open Standards are available in cloud-native world and for what it's used.
 
 ---
 
