@@ -42,7 +42,7 @@ Docker and other container solutions use a set of mechanisms that have been avai
 - Imagine a server on which different apps should be installed, and each app needs and depends on a particular version of a framework, so the installation of both apps on the same server fails.
 - Container technology ensures running both applications in the server to install both applications in 2 containers and with the correct version of the framework. Although you then have two containers, less storage space is required than with two separate VMs, because there is no OS in the containers, only the different versions of the framework.
 
-![Container vs. VM](./00_images/containers-vs-virtual-machines.jpg)
+    ![Container vs. VM](./00_images/containers-vs-virtual-machines.jpg)
 
 ---
 
@@ -77,7 +77,7 @@ Docker and other container solutions use a set of mechanisms that have been avai
 - In general, security cannot be achieved only at the container layer. It’s a continuous process that needs to be adapted all the time.
 - The 4 C's of Cloud Native security can give a rough idea of which layers need to be protected if you’re using containers.
 
-![4 C's of CLoud Native Security](00_images/4c's-security.png)
+    ![4 C's of CLoud Native Security](00_images/4c's-security.png)
 
 ---
 
