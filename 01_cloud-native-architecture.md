@@ -1,5 +1,5 @@
 # Cloud Native Architecture - 16%
-This part of the repository demonstrate the cloud-native architecture and core components, which covers 16% of the KCNA exam.
+This part of the repository demonstrate the **Cloud Native Architecture** part of exam objectives, which covers 22% of the KCNA exam.
 
 ---
 
