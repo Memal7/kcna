@@ -21,6 +21,7 @@ Docker and other container solutions use a set of mechanisms that have been avai
 - `Chroot` command, introduced in Version 7 Unix in 1979, isolates a process from the root filesystem. It hides the files from the process and simulates a new root directory.
 - The isolated environment calls `chroot jail`, where the files can't be accessed by the process but are still present on the system.
 - Docker launched in 2013 the building and running container but didn't invent it. Docker stitched the existing technologies together intelligently to make container more user-friendly and accessible.
+- [A Brief History of Containers: From 1970 Till Now](https://blog.aquasec.com/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016)
 
 ---
 
@@ -79,10 +80,7 @@ Docker and other container solutions use a set of mechanisms that have been avai
 
     ![4 C's of CLoud Native Security](00_images/4c's-security.png)
 
----
-
-## Do you want to jump deep dive in some topics?
-- [A Brief History of Containers: From 1970 Till Now](https://blog.aquasec.com/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016)
+- [Dockerfile security best practices](https://sysdig.com/blog/dockerfile-best-practices/)
 
 ---
 
