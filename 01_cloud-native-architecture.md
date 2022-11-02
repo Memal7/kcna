@@ -15,7 +15,7 @@ At the end of this page you should be able to describe and answer following ques
 
 ---
 
-### 1. What's Cloud Native?
+## What's Cloud Native?
 CNCF defines the term of cloud-native as follow:  
 *“Cloud-native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds.
 **Containers, service meshes, microservices, immutable infrastructure, and declarative APIs** exemplify this approach.*
@@ -23,7 +23,7 @@ CNCF defines the term of cloud-native as follow:
 
 ---
 
-### 2. Describe Monolithic vs. Microservices architecture approaches as well as thier benefits and drawbacks.
+## Describe Monolithic vs. Microservices architecture approaches as well as thier benefits and drawbacks.
 - **Monolithic:**
 Monolithic approch based applications designed as a self-contained application and includes all the functionality and components as a single application, e.g., an E-Commerce application that consists of an online shop, GUI, products, shopping cart, order process, etc.
     - **Benefits:**
@@ -54,7 +54,7 @@ An architectural approach for designing an application as a collection of small 
 
 ---
 
-### What're Cloud Native characteristics?
+## What're Cloud Native characteristics?
 - **High level Automation:**
     - In every step from development to deployment (CI/CD, IaC, etc.)
     - Minimal human involvement
@@ -77,7 +77,7 @@ An architectural approach for designing an application as a collection of small 
 
 ---
 
-### Describe the Twelve-Factor-App.
+## Describe the Twelve-Factor-App.
 The Twelve-Factor-App is a development methodology for building cloud-native applications that ...
 - use declarative formats,
 - offer maximum portability,
@@ -89,7 +89,7 @@ For more details about twelve-factor app: [The Twelve-Factor App](https://12fact
 
 ---
 
-### Describe Autoscaling pattern with an example.
+## Describe Autoscaling pattern with an example.
 Autoscaling describes the dynamic adjustment of resources based on the current demand. Typically CPU and memory are the metrics, but time and business metrics can also be considered.
 There're two types of autoscaling in common:
 - **Vertical scaling:** Adding more CPU and memory to existing VMs.
@@ -102,7 +102,7 @@ There're two types of autoscaling in common:
 
 ---
 
-### Describe the concept of Serverless Computing.
+## Describe the concept of Serverless Computing.
 - In Serverless Computing you provides just the code of your application and the cloud provider chooses the right environments and abstracts all the underlying infrastructures.
 - There's no upfront provisioning, no management of servers, and pay-per-use cost model for building applications.
 - Stronger focus on on-demand provisioning and scaling of applications.
@@ -111,7 +111,7 @@ There're two types of autoscaling in common:
 
 ---
 
-### Describe Cloud Native Open Standards.
+## Describe Cloud Native Open Standards.
 - **Open Container Initiative (OCI):** image, runtime and distribution specification on how to run, build, and distribute containers.
     - **Image-spec:** defines how to build and package container images.
     - **Runtime-spec:** specifies the configuration, execution environment and lifecycle of containers.
@@ -123,7 +123,7 @@ There're two types of autoscaling in common:
 
 ---
 
-### Describe the Cloud Native job roles.
+## Describe the Cloud Native job roles.
 - **Cloud Architect:** adopting Cloud technologies, designing app landscapes and infrastructures with a focus on security, scalability, and deployment.
 - **DevOps Engineer:** use tools and processes to balance Software development and operations.
 - **Security Engineer:** cloud technologies created new attack vendors. Most significantly changed role.
@@ -142,4 +142,3 @@ To measure performance and reliability of an application, SREs use three main ta
 
 ## Do you want to jump more deep dive?
 - [What's Cloud Native Applications? | VMware](https://tanzu.vmware.com/cloud-native)
-- 
