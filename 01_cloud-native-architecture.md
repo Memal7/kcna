@@ -52,6 +52,8 @@ An architectural approach for designing an application as a collection of small 
         - Implementing changes that span multiple services, but it happens rarely.
         - Successfully deploying a microservices application requires greater control of deployment methods and a high level of automation.
 
+![Monolithic vs. Microservices Architecture](./00_images/monolith-vs-microservices.png)
+
 ---
 
 ## What're Cloud Native characteristics?

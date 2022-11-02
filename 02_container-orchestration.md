@@ -42,6 +42,8 @@ Docker and other container solutions use a set of mechanisms that have been avai
 - Imagine a server on which different apps should be installed, and each app needs and depends on a particular version of a framework, so the installation of both apps on the same server fails.
 - Container technology ensures running both applications in the server to install both applications in 2 containers and with the correct version of the framework. Although you then have two containers, less storage space is required than with two separate VMs, because there is no OS in the containers, only the different versions of the framework.
 
+![Container vs. VM](./00_images/containers-vs-virtual-machines.jpg)
+
 ---
 
 ## How to build a Container?
@@ -68,7 +70,7 @@ Docker and other container solutions use a set of mechanisms that have been avai
 
 ---
 
-## What security instructions must be considered when creating containers?
+## Whic security instructions must be considered in container environments?
 - Container always shares the same kernel and network with host --> becomes a risk for the whole system if containers are allowed to call kernel functions like, e.g., killing other processes or modifying the host network by creating routing rules.
 - The execution of processes with too many privileges --> starting processes as root or admin
 - Usage of public images in public container registries, e.g., DockerHub --> malicious software
@@ -76,6 +78,8 @@ Docker and other container solutions use a set of mechanisms that have been avai
 - The 4 C's of Cloud Native security can give a rough idea of which layers need to be protected if you’re using containers.
 
 ![4 C's of CLoud Native Security](00_images/4c's-security.png)
+
+---
 
 ## Do you want to jump deep dive in some topics?
 - [A Brief History of Containers: From 1970 Till Now](https://blog.aquasec.com/a-brief-history-of-containers-from-1970s-chroot-to-docker-2016)
