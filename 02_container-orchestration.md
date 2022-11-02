@@ -84,4 +84,21 @@ Docker and other container solutions use a set of mechanisms that have been avai
 
 ---
 
+## What's Container Orchestrator?
+- Containers have become a standard for delivering Microservices applications.
+- Since a Microservice application can have a lot of containers, you have to deploy and manage large amount of containers for each application. In this case you're going to face very quickly to following problems:
+    - Providing compute resources, like VM where containers can run on.
+    - Schedule containers to servers in an efficient way.
+    - Allocate resources like CPU and memory to containers.
+    - Manage the availability of containers and replace them if they fail.
+    - Scale containers if load increases.
+    - Provide networking to connect containers.
+    - Provision storage if containers need to persist data.
+- In this case, you come very quickly to the point where you need an orchestration system to manage these containers and solve these problems.
+- Container orchestration systems provide a way to build a cluster of multiple servers and host the containers on top.
+- Most container orchestration systems consist of two parts: a control plane (master node) responsible for managing the containers and worker nodes that host the containers.
+- Kubernetes is an open-source container orchestration software for automating deployment, scaling, and management of containerized applications. It's in the industry most established and widely used container orchestration system.
+
+---
+
 [Next Part ▶ 03_Kubrnetes Fundamentals](./03_kubernetes-fundamentals.md)
