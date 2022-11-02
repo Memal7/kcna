@@ -22,37 +22,37 @@ It's a multiple choice and true/false exam, which contains 60 questions and shou
 ---
 
 ## Exam objectives
-    1. Cloud-Native Architecture - 16%
-        a. Autoscaling
-        b. Serverless
-        c. Community and Governance 
-        d. Roles and Personas
-        e. Open Standards
-        
-    2. Container Orchestration - 22%
-        a. Container Orchestration Fundamentals 
-        b. Runtime
-        c. Security
-        d. Networking
-        e. Service Mesh
-        f. Storage
-        
-    3. Kubernetes Fundamentals - 46%
-        a. Kubernetes Resources
-        b. Kubernetes Architecture
-        c. Kubernetes APIs
-        d. Containers
-        e. Scheduling
-        
-    4. Cloud-Native Application Delivery - 8%
-        a. Application Delivery Fundamentals
-        b. CI/CD
-        c. GitOps
-        
-    5. Cloud-Native Observability - 8%
-        a. Telemetry & Observability
-        b. Prometheus
-        c. Cost Management
+1. [Cloud-Native Architecture - 16%](01_cloud-native-architecture.md)
+    - Autoscaling
+    - Serverless
+    - Community and Governance
+    - Roles and Personas
+    - Open Standards
+    
+2. [Container Orchestration - 22%](02_container-orchestration.md)
+    - Container Orchestration Fundamentals
+    - Runtime
+    - Security
+    - Networking
+    - Service Mesh
+    - Storage
+    
+3. [Kubernetes Fundamentals - 46%](03_kubernetes-fundamentals.md)
+    - Kubernetes Resources
+    - Kubernetes Architecture
+    - [Kubernetes APIs](03.1_kubernernetes-objects.md)
+    - Containers
+    - Scheduling
+    
+4. [Cloud-Native Application Delivery - 8%](03.1_kubernernetes-objects.md)
+    - Application Delivery Fundamentals
+    - CI/CD
+    - GitOps
+    
+5. [Cloud-Native Observability - 8%](03.1_kubernernetes-objects.md)
+    - Telemetry & Observability
+    - Prometheus
+    - Cost Management
 
 ---
 
