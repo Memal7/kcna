@@ -86,4 +86,4 @@ Docker and other container solutions use a set of mechanisms that have been avai
 
 ---
 
-[Next part ▶ 03_Kubrnetes Fundamentals](../kcna/03_kubernetes-fundamentals.md)
+[Next art ▶ 03_Kubrnetes Fundamentals](../kcna/03_kubernetes-fundamentals.md)
