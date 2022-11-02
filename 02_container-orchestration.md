@@ -75,7 +75,7 @@ Docker and other container solutions use a set of mechanisms that have been avai
 - The execution of processes with too many privileges --> starting processes as root or admin
 - Usage of public images in public container registries, e.g., DockerHub --> malicious software
 - In general, security cannot be achieved only at the container layer. It’s a continuous process that needs to be adapted all the time.
-- The 4 C's of Cloud Native security can give a rough idea of which layers need to be protected if you’re using containers.
+- The 4 C's of Cloud Native Security can give a rough idea of which layers need to be protected if you’re using containers.
 
     ![4 C's of CLoud Native Security](00_images/4c's-security.png)
 
