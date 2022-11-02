@@ -54,18 +54,18 @@ Docker and other container solutions use a set of mechanisms that have been avai
 - The Docker daemon, the main component of the Docker Engine, reads this Dockerfile and runs every instruction to assemble the image.
 - A Dockerfile has the following instructions:
     - **Build time instructions:**
-        - `FROM`:` initializes a new build stage and sets the Base Image for subsequent instructions.  
-        - `LABEL:` adds metadata to the resulting image and stores it as a key-value string. You can specify multiple labels for an object, but each key-value pair must be unique within an object. 
-        - `RUN:` will execute any commands in a new layer on top of the current image and commit the results.  
-        - `WORKDIR:` sets the working directory for any RUN, CMD, ENTRYPOINT, COPY, and ADD  instructions that follow it.
-        - `ADD:` copies new files, directories, or remote file URLs from <src> and adds them to the filesystem of the image at the path <dest>.
-        - `COPY:` copies new files or directories from <src> and adds them to the container's filesystem at the path <dest>.
-        - `EXPOSE:` informs Docker that the container listens on the specified network port(s).
-        - `EXPOSE:` sets environment variables inside the container, e.g., `ENV WEB="192.168.2.3"`.
-        - `VOLUME:` creates a mount point and mounts external storage on it, e.g., `VOULUME ["path/data"]`.
+        - `FROM`: initializes a new build stage and sets the Base Image for subsequent instructions.  
+        - `LABEL`: adds metadata to the resulting image and stores it as a key-value string. You can specify multiple labels for an object, but each key-value pair must be unique within an object. 
+        - `RUN`: will execute any commands in a new layer on top of the current image and commit the results.  
+        - `WORKDIR`: sets the working directory for any RUN, CMD, ENTRYPOINT, COPY, and ADD  instructions that follow it.
+        - `ADD`: copies new files, directories, or remote file URLs from <src> and adds them to the filesystem of the image at the path <dest>.
+        - `COPY`: copies new files or directories from <src> and adds them to the container's filesystem at the path <dest>.
+        - `EXPOSE`: informs Docker that the container listens on the specified network port(s).
+        - `EXPOSE`: sets environment variables inside the container, e.g., `ENV WEB="192.168.2.3"`.
+        - `VOLUME`: creates a mount point and mounts external storage on it, e.g., `VOULUME ["path/data"]`.
     - **Run time instructions:**
-        - `CMD:` executes when the container is started from the resulting image. There can only be one `CMD` in a Dockerfile, and if there is more than one only the last one is affected.
-        - `ENTRYPOINT:` allows you to configure a container that will run as an executable.
+        - `CMD`: executes when the container is started from the resulting image. There can only be one `CMD` in a Dockerfile, and if there is more than one only the last one is affected.
+        - `ENTRYPOINT`: allows you to configure a container that will run as an executable.
 - [Here's an example how to build a container from a Dockerfile](https://github.com/Memal7/containerize-app)
 
 ---
