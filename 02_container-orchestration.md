@@ -64,7 +64,7 @@ Docker and other container solutions use a set of mechanisms that have been avai
         - `ADD`: copies new files, directories, or remote file URLs from <src> and adds them to the filesystem of the image at the path <dest>.
         - `COPY`: copies new files or directories from <src> and adds them to the container's filesystem at the path <dest>.
         - `EXPOSE`: informs Docker that the container listens on the specified network port(s).
-        - `EXPOSE`: sets environment variables inside the container, e.g., `ENV WEB="192.168.2.3"`.
+        - `EXPOSE`: sets environment variables inside the container, e.g., `ENV_WEB="192.168.2.3"`.
         - `VOLUME`: creates a mount point and mounts external storage on it, e.g., `VOULUME ["path/data"]`.
     - **Run time instructions:**
         - `CMD`: executes when the container is started from the resulting image. There can only be one `CMD` in a Dockerfile, and if there is more than one only the last one is affected.
