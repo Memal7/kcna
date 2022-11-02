@@ -147,4 +147,4 @@ To measure performance and reliability of an application, SREs use three main ta
 
 ---
 
-[Next part ▶ 02_Container Orchestration](../kcna/02_container-orchestration.md)
+[Next part ▶ 02_Container Orchestration](./02_container-orchestration.md)
