@@ -16,11 +16,10 @@ At the end of this page you should be able to describe and answer following ques
 ---
 
 ### 1. What's Cloud Native?
-CNCF defines the term of cloud-native as follow:
-
-_“Cloud-native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds.
-**Containers, service meshes, microservices, immutable infrastructure, and declarative APIs** exemplify this approach._
-_These techniques enable loosely coupled systems that are resilient, manageable, and observable. Combined with robust automation, they allow engineers to make high-impact changes frequently and predictably with minimal toil. [...]”_ - CNCF
+CNCF defines the term of cloud-native as follow:  
+*“Cloud-native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds.
+**Containers, service meshes, microservices, immutable infrastructure, and declarative APIs** exemplify this approach.*
+*These techniques enable loosely coupled systems that are resilient, manageable, and observable. Combined with robust automation, they allow engineers to make high-impact changes frequently and predictably with minimal toil. [...]”* - ***CNCF***
 
 ---
 

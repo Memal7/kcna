@@ -22,7 +22,7 @@ It's a multiple choice and true/false exam, which contains 60 questions and shou
 ---
 
 ## Exam objectives
-1. [Cloud-Native Architecture - 16%](01_cloud-native-architecture.md)
+1. [Cloud Native Architecture - 16%](01_cloud-native-architecture.md)
     - Autoscaling
     - Serverless
     - Community and Governance
@@ -44,12 +44,12 @@ It's a multiple choice and true/false exam, which contains 60 questions and shou
     - Containers
     - Scheduling
     
-4. [Cloud-Native Application Delivery - 8%](03.1_kubernernetes-objects.md)
+4. [Cloud Native Application Delivery - 8%](03.1_kubernernetes-objects.md)
     - Application Delivery Fundamentals
     - CI/CD
     - GitOps
     
-5. [Cloud-Native Observability - 8%](03.1_kubernernetes-objects.md)
+5. [Cloud Native Observability - 8%](03.1_kubernernetes-objects.md)
     - Telemetry & Observability
     - Prometheus
     - Cost Management
