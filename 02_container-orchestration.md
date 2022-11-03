@@ -5,7 +5,11 @@ This part of the repository demonstrate the Container Orchestration part of exam
 
 ## Chapter outcomes
 At the end of this page you should be able to describe and answer following questions:
-- 
+- Describe the concept of container and it's core components.
+- Understand the underline technologies which container is based on.
+- How to build a container?
+- Which problems are going to be solved with a container orchestrations system?
+- what're the 4 C's of Cloud Native Security?
 
 ---
 ## What's Container?  
