@@ -110,6 +110,7 @@ Docker and other container solutions use a set of mechanisms that have been avai
 - Container orchestration systems provide a way to build a cluster of multiple servers and host the containers on top.
 - Most container orchestration systems consist of two parts: a control plane (old name: master node) responsible for managing the containers and worker nodes that host the containers.
 - Kubernetes is an open-source container orchestration software for automating deployment, scaling, and management of containerized applications. It's in the industry most established and widely used container orchestration system.
+- K8s ist mostly used as an abbreviation of Kubernetes, while there's 8 letters between K and s.
 
 ---
 
