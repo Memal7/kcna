@@ -13,7 +13,8 @@ For clarity this part is demonstrated in two separated files (03_kubernetes-arch
 ![Kubernetes Architecture](./00_images/k8s-architecture.png)
 
 A k8s cluster consists at two different server nodes to run a containerized application:  
-**Controle Plane Node:**  
+
+### **Controle Plane Node**  
 This the brain of operations and administration tasks. It's a collection of Linux machines (must be!) and  contains various components which manage the cluster and control various tasks like deployment, scheduling and self-healing of containerized workloads.  
 These components are:
 - **API Server:**
@@ -39,7 +40,7 @@ These components are:
 - **Cloud Controller Manager (optional):**
     - Can be used to interact with the API of cloud providers, to create external resources like load balancers, storage or security groups.
 
-**Worker Node:**  
+### **Worker Node:**  
 A Worker Node is a single machine (physical or VM) and it can be either Linux or Windows. It's where the containerized applications run.  
 Inside a Worker Node runs Pods and inside Pods runs containerized application based on an image.  
 A Workder Node has following components:
