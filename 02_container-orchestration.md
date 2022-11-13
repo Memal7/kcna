@@ -98,11 +98,17 @@ Docker and other container solutions use a set of mechanisms that have been avai
     - Allocate resources like CPU and memory to containers.
     - Manage the availability of containers and replace them if they fail.
     - Scale containers if load increases.
-    - Provide networking to connect containers.
+    - Provide networking to connect containers
     - Provision storage if containers need to persist data.
-- In this case, you come very quickly to the point where you need an orchestration system to manage these containers and solve these problems.
+- In this case, you come very quickly to the point where you need an orchestration system to manage these containers and solve these problems in a automation way.
+- A container orchestration system has typically following tasks:
+    - Self-healing of containers (e.g. restarting containers that fail or replacing containers)
+    - Autocaling (up/down) dynamically, based on demand
+    - Automating rolling updates and rollbacks of containers
+    - Managing storage to persist container's data
+    - Managing network traffics and IP adress management
 - Container orchestration systems provide a way to build a cluster of multiple servers and host the containers on top.
-- Most container orchestration systems consist of two parts: a control plane (master node) responsible for managing the containers and worker nodes that host the containers.
+- Most container orchestration systems consist of two parts: a control plane (old name: master node) responsible for managing the containers and worker nodes that host the containers.
 - Kubernetes is an open-source container orchestration software for automating deployment, scaling, and management of containerized applications. It's in the industry most established and widely used container orchestration system.
 
 ---
