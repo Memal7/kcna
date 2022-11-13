@@ -40,16 +40,16 @@ It's a multiple choice and true/false exam, which contains 60 questions and shou
 3. [Kubernetes Fundamentals - 46%](03_kubernetes-fundamentals.md)
     - Kubernetes Resources
     - Kubernetes Architecture
-    - [Kubernetes APIs](03.1_kubernernetes-objects.md)
+    - [Kubernetes APIs](03.1_kubernetes-objects.md)
     - Containers
     - Scheduling
     
-4. [Cloud Native Application Delivery - 8%](03.1_kubernernetes-objects.md)
+4. [Cloud Native Application Delivery - 8%](04_cloud-native-app-delivery.md)
     - Application Delivery Fundamentals
     - CI/CD
     - GitOps
     
-5. [Cloud Native Observability - 8%](03.1_kubernernetes-objects.md)
+5. [Cloud Native Observability - 8%](05_cloud-observability.md)
     - Telemetry & Observability
     - Prometheus
     - Cost Management
