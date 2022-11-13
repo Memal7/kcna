@@ -91,7 +91,7 @@ Docker and other container solutions use a set of mechanisms that have been avai
 ---
 
 ## What's Container Orchestrator?
-- Containers have become a standard for delivering Microservices applications.
+- Containers have become a standard for delivering Microservice based applications.
 - Since a Microservice application can have a lot of containers, you have to deploy and manage large amount of containers for each application. In this case you're going to face very quickly to following problems:
     - Providing compute resources, like VM where containers can run on.
     - Schedule containers to servers in an efficient way.
