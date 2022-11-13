@@ -5,19 +5,19 @@ This part of the repository demonstrate the **Cloud Native Architecture** part o
 
 ## Chapter outcomes
 At the end of this page you should be able to describe and answer following questions:
-- How CNCF defines the cloud-native terms and what're it's the core characteristics.
+- How CNCF defines the Cloud Native terms and what're it's the core characteristics?
 - Describe Monolith vs. Microservices architecture approaches with examples, as well as the benefits and drawbacks of both approaches.
-- Describe different Autoscaling options in cloud-native environments.
+- Describe different Autoscaling options in Cloud Native environments.
 - Describe the concept of Serverless Computing, as well as it'd benefits.
 - Community and Governance 
-- Which Roles and Personas are existing within cloud-native environments and what're thier tasks?
-- Which Open Standards are available in cloud-native world and for what it's used.
+- Which Roles and Personas are existing within Cloud Native environments and what're thier tasks?
+- Which Open Standards are available in Cloud Native world and for what it's used.
 
 ---
 
 ## What's Cloud Native?
-CNCF defines the term of cloud-native as follow:  
-*“Cloud-native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds.
+CNCF defines the term of Cloud Native as follow:  
+*“Cloud Native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds.
 **Containers, service meshes, microservices, immutable infrastructure, and declarative APIs** exemplify this approach.*
 *These techniques enable loosely coupled systems that are resilient, manageable, and observable. Combined with robust automation, they allow engineers to make high-impact changes frequently and predictably with minimal toil. [...]”* - ***CNCF***
 
@@ -80,7 +80,7 @@ An architectural approach for designing an application as a collection of small 
 ---
 
 ## Describe the Twelve-Factor-App.
-The Twelve-Factor-App is a development methodology for building cloud-native applications that ...
+The Twelve-Factor-App is a development methodology for building Cloud Native applications that ...
 - use declarative formats,
 - offer maximum portability,
 - suitable for deployment on cloud platforms,

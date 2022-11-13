@@ -7,16 +7,16 @@ This repository should be as a single learning and preparation source for your K
 ## About KCNA certification
 ![KCNA logo](./00_images/kcna.png)
 
-KCNA is the first and fundamentals certification of the CNCF (Cloud Native Computing Foundation). It provides a conceptual understanding of cloud-native architecture and most common used cloud-native projects, Microservices, Serverless Computing, Autoscaling, CI/CD, Observability, but as a core topic the Container and Kubernetes fundamentals in detail.
+KCNA is the first and fundamentals certification of the CNCF (Cloud Native Computing Foundation). It provides a conceptual understanding of Cloud Native architecture and most common used Cloud Native projects, Microservices, Serverless Computing, Autoscaling, CI/CD, Observability, but as a core topic the Container and Kubernetes fundamentals in detail.
 
 It's a multiple choice and true/false exam, which contains 60 questions and should be solved within 90 minutes.
 
 ---
 
 ## Who should learn this repo?
-- If you want to have a broad understanding about cloud-native tecgnologies.
-- if you just started your career in cloud-native world or newly switched in this environments.
-- Students and graduates, which would like to kick-off thier carrer in cloud-native environments.
+- If you want to have a broad understanding about Cloud Native tecgnologies.
+- if you just started your career in Cloud Native world or newly switched in this environments.
+- Students and graduates, which would like to kick-off thier carrer in Cloue Native environments.
 - And of course if you're interested to be certified KCNA.
 
 ---
