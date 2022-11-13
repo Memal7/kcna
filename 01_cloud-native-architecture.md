@@ -86,7 +86,7 @@ The Twelve-Factor-App is a development methodology for building cloud-native app
 - suitable for deployment on cloud platforms,
 - minimize divergence between development and production,
 - enabling continious deployments for maximum agility,
-- allow easy scaling of applications without significant changes to tooling, architecture, or development practices.
+- allow easy scaling of applications without significant changes to tooling, architecture, or development practices.  
 For more details about twelve-factor app: [The Twelve-Factor App](https://12factor.net/)
 
 ---
