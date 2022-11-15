@@ -64,10 +64,9 @@ A Workder Node has following components:
     - It also implements rules to handle routing and load balancing of traffic by using *iptables* (default) and *IPVS*.
     - kube-proxy makes networking available for your application.
 
-
 ---
 
-## Short description of every components.
+### An overview of Kubernetes Architecture with short description of every components.
 
 ![k8s components short description](./00_images/k8s-architecture-components.png)
 
