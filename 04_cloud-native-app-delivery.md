@@ -42,3 +42,7 @@ At the end of this page you should be able to describe and answer the following 
 - K8s is using a similar idea as the pull-based approach: A database is watched for changes, and the changes are applied to the running state if it doesn’t match the desired state.
 
     ![GitOps Concept](./00_images/gitops.png)
+
+---
+
+[Next Part ▶ 05_Cloud Native Observability](./05_cloud-observability.md)

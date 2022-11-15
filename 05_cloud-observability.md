@@ -64,3 +64,7 @@ Observability should give you answers to questions like:
 - Right-Sizing --> *via good monitoring*
 - Reserved Instances --> *This is a great pricing model if you have a good estimate about the resources you need, maybe even for years in advance*
 - Spot Instances --> *If you have a batch job or heavy load for a short time*
+
+---
+
+[Next Part ▶ Quiz](./quiz.md)

@@ -70,5 +70,9 @@ A Worker Node has the following components:
 
 ![k8s components short description](./00_images/k8s-architecture-components.png)
 
+---
+
+[Next Part ▶ 03.1_Kubernetes Objects](./03.1_kubernetes-objects.md)
+
 
 
