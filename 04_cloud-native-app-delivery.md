@@ -26,7 +26,7 @@ At the end of this page you should be able to describe and answer following ques
 - IaC is the process of provisioning and managing infrastructure resources through writing and executing code, rather than using manual configuration or GUIs.  
 - IaC offers many benefits. Just some of them are:
     - Provisioning the infrastructure resources in a automation way, which's much faster and consistent than manual.
-    - Manage multiple environements (Dev, Test, Prod, etc.)
+    - Manage multiple environements (dev, stage, prod, etc.)
     - Repeatable usage of the IaC.
     - Versioning of IaC codes with version control (e.g. Git) and you can access always the old versions or update them.
     - IaC code can be used as a doc and anyone can access and understand it at any time.
