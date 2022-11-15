@@ -1,31 +1,31 @@
 # Cloud Native Architecture - 16%
-This part of the repository demonstrate the **Cloud Native Architecture** part of exam objectives, which covers 22% of the KCNA exam.
+This part of the repository demonstrates the **Cloud Native Architecture** part of exam objectives, which covers 22% of the KCNA exam.
 
 ---
 
 ## Chapter outcomes
-At the end of this page you should be able to describe and answer following questions:
-- How CNCF defines the Cloud Native terms and what're it's the core characteristics?
+At the end of this page you should be able to describe and answer the following questions:
+- How does CNCF define the Cloud Native terms and what are its core characteristics?
 - Describe Monolith vs. Microservices architecture approaches with examples, as well as the benefits and drawbacks of both approaches.
 - Describe different Autoscaling options in Cloud Native environments.
-- Describe the concept of Serverless Computing, as well as it'd benefits.
+- Describe the concept of Serverless Computing, as well as its benefits.
 - Community and Governance 
-- Which Roles and Personas are existing within Cloud Native environments and what're thier tasks?
-- Which Open Standards are available in Cloud Native world and for what it's used.
+- Which Roles and Personas are existing within Cloud Native environments and what are their tasks?
+- Which Open Standards are available in Cloud Native world and what is it used for?
 
 ---
 
 ## What's Cloud Native?
-CNCF defines the term of Cloud Native as follow:  
+CNCF defines the term Cloud Native as follows:  
 *“Cloud Native technologies empower organizations to build and run scalable applications in modern, dynamic environments such as public, private, and hybrid clouds.
 **Containers, service meshes, microservices, immutable infrastructure, and declarative APIs** exemplify this approach.*
 *These techniques enable loosely coupled systems that are resilient, manageable, and observable. Combined with robust automation, they allow engineers to make high-impact changes frequently and predictably with minimal toil. [...]”* - ***CNCF***
 
 ---
 
-## Describe Monolithic vs. Microservices architecture approaches as well as thier benefits and drawbacks.
+## Describe Monolithic vs. Microservices architecture approaches as well as their benefits and drawbacks.
 - **Monolithic:**
-Monolithic approch based applications designed as a self-contained application and includes all the functionality and components as a single application, e.g., an E-Commerce application that consists of an online shop, GUI, products, shopping cart, order process, etc.
+Monolithic approach-based applications are designed as self-contained applications and include all the functionality and components as a single application, e.g., an E-Commerce application that consists of an online shop, GUI, products, shopping cart, order process, etc.
     - **Benefits:**
         - Suitable for scenarios, the application has different modules entirely dependent on each other from a transactional context.
         - It makes sense for simple and lightweight applications.
@@ -41,7 +41,7 @@ Monolithic approch based applications designed as a self-contained application a
 An architectural approach for designing an application as a collection of small services; each service implements business logic or functionalities, runs its process, and communicates via HTTP APIs or messaging.
     - **Benefits:**
         - Much faster to develop and much easier to understand and maintain.
-        - Can be deployed, upgraded, scaled, and restarted independent of other services in the same application.
+        - Can be deployed, upgraded, scaled, and restarted independently of other services in the same application.
         - Enabling frequent updates and continuous deployment.
         - Free to choose whatever technologies make sense.
         - The Better choice for complex and evolving applications.
@@ -56,12 +56,12 @@ An architectural approach for designing an application as a collection of small 
 
 ---
 
-## What're Cloud Native characteristics?
-- **High level Automation:**
+## What are Cloud Native characteristics?
+- **High-level Automation:**
     - In every step from development to deployment (CI/CD, IaC, etc.)
     - Minimal human involvement
     - **Benefits:** fast and frequent incremental changes to production, easier disaster recovery, etc.
-- **Self healing:**
+- **Self-healing:**
     - Health check, monitoring, automatic restart, etc.
     - **Benefits:** if one Microservice fails, only this part of the application stops working and will be fixed.
 - **Scalable:**
@@ -80,43 +80,43 @@ An architectural approach for designing an application as a collection of small 
 ---
 
 ## Describe the Twelve-Factor-App.
-The Twelve-Factor-App is a development methodology for building Cloud Native applications that ...
-- use declarative formats,
-- offer maximum portability,
-- suitable for deployment on cloud platforms,
-- minimize divergence between development and production,
-- enabling continious deployments for maximum agility,
-- allow easy scaling of applications without significant changes to tooling, architecture, or development practices.  
-For more details about twelve-factor app: [The Twelve-Factor App](https://12factor.net/)
+The Twelve-Factor-App is a development methodology for building Cloud Native applications that 
+- use declarative formats
+- offer maximum portability
+- is suitable for deployment on cloud platforms
+- minimize divergence between development and production
+- enable continuous deployments for maximum agility
+- allow easy scaling of applications without significant changes to tooling, architecture, or development practices  
+For more details about the twelve-factor app: [The Twelve-Factor App](https://12factor.net/)
 
 ---
 
-## Describe Autoscaling pattern with an example.
+## Describe the Autoscaling pattern with an example.
 Autoscaling describes the dynamic adjustment of resources based on the current demand. Typically CPU and memory are the metrics, but time and business metrics can also be considered.
-There're two types of autoscaling in common:
+There are two types of autoscaling in common:
 - **Vertical scaling:** Adding more CPU and memory to existing VMs.
 - **Horizontal scaling:** Adding more physical or virtual machines.
 - **The difference in example:**
     - Carry a heavy object that you can't pick up, but you can build muscle —> *Vertical*
     - Carry together with friends —> *Horizontal*
 
-**Note:** You will learn about Autoscaling in much more details in [03.1_kubernernetes-objects.md](/Users/mustafaemal/Documents/repos/kcna/03.1_kubernernetes-objects.md)
+**Note:** You will learn about Autoscaling in more detail in [03.1_kubernernetes-objects.md](/Users/mustafaemal/Documents/repos/kcna/03.1_kubernernetes-objects.md)
 
 ---
 
 ## Describe the concept of Serverless Computing.
-- In Serverless Computing you provides just the code of your application and the cloud provider chooses the right environments and abstracts all the underlying infrastructures.
-- There's no upfront provisioning, no management of servers, and pay-per-use cost model for building applications.
+- In Serverless Computing you provide just the code of your application and the cloud provider chooses the right environment and abstracts all the underlying infrastructures.
+- There's no upfront provisioning, no management of servers, and a pay-per-use cost model for building applications.
 - Stronger focus on on-demand provisioning and scaling of applications.
-- Bring your code as .zip or container image.
-- Typical use cases are writing small, stateless applications make them a perfect fit for event or data streams, scheduled tasks, business logic or batch processing.
+- Bring your code as a .zip or container image.
+- Typical use cases are writing small, stateless applications making them a perfect fit for event or data streams, scheduled tasks, business logic, or batch processing.
 
 ---
 
 ## Describe Cloud Native Open Standards.
-- **Open Container Initiative (OCI):** image, runtime and distribution specification on how to run, build, and distribute containers.
+- **Open Container Initiative (OCI):** image, runtime and distribution specification on how to run, build and distribute containers.
     - **Image-spec:** defines how to build and package container images.
-    - **Runtime-spec:** specifies the configuration, execution environment and lifecycle of containers.
+    - **Runtime-spec:** specifies the configuration, execution environment, and lifecycle of containers.
     - **Distribution-spec:** provides a standard for the distribution of content in general and container images in particular.
 - **Container Network Interface (CNI):** a specification on how to implement networking for containers.
 - **Container Runtime Interface (CRI):** a specification on how to implement container runtimes in container orchestration systems.
@@ -128,17 +128,17 @@ There're two types of autoscaling in common:
 ## Describe the Cloud Native job roles.
 - **Cloud Architect:** adopting Cloud technologies, designing app landscapes and infrastructures with a focus on security, scalability, and deployment.
 - **DevOps Engineer:** use tools and processes to balance Software development and operations.
-- **Security Engineer:** cloud technologies created new attack vendors. Most significantly changed role.
+- **Security Engineer:** cloud technologies create new attack vendors. Most significantly changed role.
 - **DevSecOps:** make security an integral part of a modern environment.
-- **Data Engineer:** collecting, storing, and analyzing the vast amount of data.
+- **Data Engineer:** collecting, storing, and analyzing a vast amount of data.
 - **Full-Stack Engineer:** all around Frontend, Backend, and Infrastructure.
-- **Site Reliability Engineer (SRE):** SRE is founded 2003 from Google and it's goal is to Create and maintain reliable and scalable Software. Software Engineering approaches are used to solve operational problems and automate operational tasks.
-To measure performance and reliability of an application, SREs use three main tasks:
+- **Site Reliability Engineer (SRE):** SRE was founded in 2003 by Google and its goal is to create and maintain reliable and scalable Software. Software Engineering approaches are used to solve operational problems and automate operational tasks.
+To measure the performance and reliability of an application, SREs use three main tasks:
 - **Service Level Objectives (SLO):**  specify a target level for the reliability of your service. A goal that's set, for example, reaching a service latency of less than 100ms.
-- **Service Level Indicators (SLI):** a carefully defined quantitative measure of some aspect of the level of service that‘s provided, e.g., how long a request  needs to be answered.
-- **Service Level Aggreements (SLA):** an explicit or implicit contract with the user that includes consequences of meeting (or missing) the SLAs they contain. The results are easily recognized when they are financial, a rebate, or a penalty, but they can take other forms. Answer the question what happens if SLAs are not met.(Did u mean to answer this.
+- **Service Level Indicators (SLI):** a carefully defined quantitative measure of some aspect of the level of service that‘s provided, e.g., how long a request needs to be answered.
+- **Service Level Agreements (SLA):** an explicit or implicit contract with the user that includes consequences of meeting (or missing) the SLAs they contain. The results are easily recognized when they are financial, a rebate, or a penalty, but they can take other forms. Answer the question what happens if SLAs are not met.(Did u mean to answer this.)
 
-**Note:** In exam there's at least one conceptual understanding question about SRE role, so therefor, you should really understand this role well!
+**Note:** In the exam there's at least one conceptual understanding question about the SRE role, so, therefore, you should understand this role well!
 
 ---
 

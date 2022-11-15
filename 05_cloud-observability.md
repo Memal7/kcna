@@ -1,20 +1,20 @@
 # Cloud Native Observability - 8%
-This part of the repository demonstrate the **Cloud Native Observability** part of exam objectives, which covers 8% of the KCNA exam.
+This part of the repository demonstrates the **Cloud Native Observability** part of exam objectives, which covers 8% of the KCNA exam.
 
 ---
 
 ## Chapter outcomes
-At the end of this page you should be able to describe and answer following questions:
+At the end of this page you should be able to describe and answer the following questions:
 - What's Observability?
-- What'r Logs, Metrics, and Traces?.
-- Which Observability tools are use most in Cloud Native context?
-- What's the relation between Prometheus and Grafana?
+- What are Logs, Metrics, and Traces?.
+- Which Observability tools are used most in the Cloud Native context?
+- What's the relationship between Prometheus and Grafana?
 - How can I control my Cloud Native environment costs?
 
 ---
 
 ## What's Observability?
-Observability should gives you answers to questions like:
+Observability should give you answers to questions like:
 - Is the system stable, or does it change its state when manipulated?
 - Is the system sensitive to change, e.g., if some services have high latency?
 - Do specific metrics in the system exceed their limits?
@@ -23,7 +23,7 @@ Observability should gives you answers to questions like:
 	
 ---
 
-### What'r Logs, Metrics, and Traces?
+### What are Logs, Metrics, and Traces?
 - **Logs:**
     - These are messages emitted from an application when errors, warnings, or debug information should be presented.
     - A simple log entry could be the start and end of a specific task that the application performed.
@@ -40,12 +40,12 @@ Observability should gives you answers to questions like:
 ---
 
 ### Describe how Prometheus can be used to collect and store metrics.
-- Prometheus is an open source tool that collects metrics emitted by applications and servers as time series data - these are very simple data sets that include a timestamp, label, and the measurement itself.
+- Prometheus is an open-source tool that collects metrics emitted by applications and servers as time series data - these are very simple data sets that include a timestamp, label, and the measurement itself.
 - The Prometheus data model provides four core metrics:
     - **Counter:** a value that increases, like a request or error count
     - **Gauge:** values the increase or decrease, like memory size
     - **Histogram:** a sample of observations, like request duration or response size
-    - **Summary**: imilar to a histogram, but also provides the total count of observations.
+    - **Summary**: similar to a histogram, but also provides the total count of observations.
 - Applications can expose an HTTP endpoint under `/metrics` instead of implementing it yourself.
 - You can use the existing client libraries:
     - Go
@@ -54,7 +54,7 @@ Observability should gives you answers to questions like:
     - Ruby
 - Prometheus has built-in support for k8s and can be configured to automatically discover all services in your cluster and collect the metric data in a defined interval to save them in a time series database.
 - To query data that is stored in the time series database, Prometheus provides a querying language called *PromQL*.
-- A user can use *PromQL* to select and aggregate data in real-time and view it in the built-in Prometheus user interface, which offers a simple graphical or tabular view.
+- A user can use *PromQL* to select and aggregate data in real time and view it in the built-in Prometheus user interface, which offers a simple graphical or tabular view.
 - To visualize Prometheus metrics and all data *Grafana* could be used to build cool and user-friendly dashboards.
 
 ---
