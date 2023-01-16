@@ -40,7 +40,7 @@ It's a multiple choice and true/false exam, which contains 60 questions and shou
 3. [Kubernetes Fundamentals - 46%](03_kubernetes-fundamentals.md)
     - Kubernetes Resources
     - Kubernetes Architecture
-    - [Kubernetes APIs](03.1_kubernetes-objects.md)
+    - [Kubernetes Objects](03.1_kubernetes-objects.md)
     - Containers
     - Scheduling
     
