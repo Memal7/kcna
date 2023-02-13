@@ -21,16 +21,15 @@ These components are:
 - **API Server**
   - Primary access point and communication hub for the whole k8s cluster.
   - All the communication between the components in k8s is done through this.
-  - API and this is where users would access the cluster.
   - Without it, communication with the cluster is not possible.
   - API server itself is stateless, state of the system is stored in etcd.
 - **etcd**
   - A database that stores the state of k8s objects in key-value pairs.
   - Every activity (e.g., assigning a container to a node etc.) in the k8s cluster going to be stored here.
 - **Scheduler**
-  - Describes the process of automatically choosing the right worker node for newly created or unassigned pods but is not responsible for actually starting the workload!
+  - Describes the process of automatically choosing the right worker node for newly created or unassigned pods, but is not responsible for actually starting the workload!
   - Before assigning a pod to a node, the existing nodes must be filtered according to specific scheduling requirements. A node that meets the scheduler requirements is called a *feasible node*. If none of the nodes are feasible, the pod remains unscheduled until the scheduler can place it.
-  - Scheduler selects a node for the pod in a two-step operation:
+  - Scheduling a pod happens in a two-step operation:
     - **Filtering** finds feasible nodes for a pod, runs a set of functions to score the feasible nodes, and picks the node with the highest score among the feasible ones. The scheduler then notifies the API server about this decision in a process called *binding*.
     - **Scoring** the scheduler ranks the remaining nodes to choose the most suitable pod placement. The scheduler assigns a score to each node that survived filtering, basing this score on the active scoring rules.
   - Finally, the Scheduler assigns the pod to the node with the highest score. If there is more than one node with the same score, kube-scheduler selects one of these arbitrarily.
