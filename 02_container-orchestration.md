@@ -33,7 +33,7 @@ Docker and other container solutions use a set of mechanisms that have been avai
 
 ## What are container core components?
 - **Container Registry:** a database of images to pull/push container images (e.g., DockerHub).
-- **Container Image:** a template or blueprint from which you can create a container instance. In addition to the actual application, the container image contains a complete runtime environment, including the OS (without the kernel), libraries, utilities, and required files. As an OS, a maximally reduced base system without a service manager, such as system is sufficient.
+- **Container Image:** a template or blueprint from which you can create a container instance. In addition to the actual application, the container image contains a complete runtime environment, including the OS (without the kernel), libraries, utilities, and required files.
 - **Container:** a running instance of an image. You can create any number of containers from one image.
 - **Container Network:** exists on the container host and connects containers with other containers and the outside world. There is a default network, but you can create as many networks as you want on the container host.
 - **Container Engine:**  the software that takes care of deploying the containers on the container host. The container engine is mostly comparable to a hypervisor.
