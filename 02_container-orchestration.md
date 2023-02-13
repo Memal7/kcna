@@ -47,7 +47,7 @@ Docker and other container solutions use a set of mechanisms that have been avai
 - When you start a container, it is docked to the kernel running on the host. The kernel then opens a new namespace and allocates the resources it needs.
 - The container is just a running process that runs on a container host. You create a container (e.g., with an Apache web server) on a host, start it with any container engine (e.g., Docker), and let it run. When you delete the container, the entire web server is gone from the host.
 - Imagine a server on which different apps should be installed, and each app needs and depends on a particular version of a framework, so the installation of both apps on the same server fails. Container technology allows running both applications on the server by using two containers with the correct versions of the framework. Even though you then have two containers, less storage space is required than with two separate VMs because there is no OS in the containers, only the different versions of the framework.
-- ***»A virtual machine is an operating system that thinks it’s running on its own computer. A container on the other hand is an application that thinks it’s an operating system.«*** – David Clinton
+- *»A virtual machine is an operating system that thinks it’s running on its own computer. A container on the other hand is an application that thinks it’s an operating system.«* – David Clinton
 
     ![Container vs. VM](./00_images/containers-vs-virtual-machines.jpg)
 
